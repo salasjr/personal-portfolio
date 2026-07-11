@@ -1,5 +1,6 @@
 "use client";
 
+import { SectionLabel } from "@/components/section-label";
 import { siteConfig } from "@/lib/data";
 import { motion } from "framer-motion";
 import { Check, Copy, Github, Linkedin, Mail } from "lucide-react";
@@ -42,7 +43,7 @@ export function Contact() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6 }}
         >
-          <div className="eyebrow">Contact</div>
+          <SectionLabel>Contact</SectionLabel>
           <h2 className="display mt-6 text-balance text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.15]">
             Have something worth
             building?

@@ -1,6 +1,7 @@
 "use client";
 
 import { DetailModal } from "@/components/detail-modal";
+import { SectionLabel } from "@/components/section-label";
 import { projects, type Project } from "@/lib/data";
 import { motion } from "framer-motion";
 import { ArrowUpRight, ExternalLink } from "lucide-react";
@@ -51,7 +52,7 @@ export function Work() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6 }}
         >
-          <div className="eyebrow">Featured Projects</div>
+          <SectionLabel>Featured Projects</SectionLabel>
           <h2 className="display mt-6 text-balance text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.15]">
           A selection of projects 
           and engineering work.

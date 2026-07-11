@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { SectionLabel } from "@/components/section-label";
 import { siteConfig } from "@/lib/data";
 
 export function About() {
@@ -15,7 +16,7 @@ export function About() {
             transition={{ duration: 0.6 }}
           >
             <div className="sticky top-28">
-              <div className="eyebrow">About</div>
+              <SectionLabel>About</SectionLabel>
               <h2 className="display mt-6 text-balance text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.15]">
                 {siteConfig.about.title}{" "}
                 <span className="italic-accent">{siteConfig.about.accent}</span>.

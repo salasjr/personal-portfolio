@@ -1,6 +1,7 @@
 "use client";
 
 import { DetailModal } from "@/components/detail-modal";
+import { SectionLabel } from "@/components/section-label";
 import {
   achievements,
   education,
@@ -25,7 +26,7 @@ export function Experience() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6 }}
         >
-          <div className="eyebrow">Experience</div>
+          <SectionLabel>Experience</SectionLabel>
           <h2 className="display mt-6 text-balance text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.15]">
           Professional experience and
            key contributions.
@@ -122,7 +123,7 @@ export function Experience() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="eyebrow">Education</div>
+            <SectionLabel>Education</SectionLabel>
             <div className="mt-8 space-y-8">
               {education.map((edu) => (
                 <div key={edu.school} className="border-t border-border pt-6 first:border-t-0 first:pt-0">
@@ -150,7 +151,7 @@ export function Experience() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <div className="eyebrow">Skills & Achievements</div>
+            <SectionLabel>Skills & Achievements</SectionLabel>
             <div className="mt-8 space-y-6">
               {Object.entries(skills).map(([category, items]) => (
                 <div key={category}>
