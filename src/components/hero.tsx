@@ -47,7 +47,7 @@ export function Hero() {
               custom={0}
             >
               <Sparkles className="h-3.5 w-3.5" />
-              {siteConfig.title} · {siteConfig.location}
+              {siteConfig.title}
             </motion.div>
 
             <motion.h1

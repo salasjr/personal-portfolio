@@ -136,7 +136,6 @@ export function Experience() {
                     </span>
                   </div>
                   <p className="mt-2 text-foreground/80">{edu.degree}</p>
-                  <p className="mt-1 text-sm text-muted-foreground">{edu.details}</p>
                   <p className="mt-1 font-mono text-[11px] text-muted-foreground">
                     {edu.location}
                   </p>
