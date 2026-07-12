@@ -19,7 +19,8 @@ export const siteConfig = {
       "I build production-grade backend services, full-stack platforms, and AI-powered systems with a focus on microservices, async messaging, machine learning, RAG pipelines, LLM agents, and developer experience at scale.",
   },
   about: {
-    title: "Creating scalable systems and AI solutions",
+    title: "Creating scalable systems and",
+    accent: "AI solutions",
     description:
       "My work spans backend architecture, AI engineering, and full-stack development, building scalable NestJS services, distributed systems, RAG pipelines, and LLM-powered applications.",
     highlights: [
