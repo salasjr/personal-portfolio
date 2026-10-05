@@ -100,7 +100,7 @@ export const projects: Project[] = [
     ],
     gradient: "from-amber-900/80 via-orange-800/60 to-yellow-900/40",
     image: "/projects/aladia.png",
-    liveUrl: "https://istitutoformativoaladia.it/",
+    liveUrl: "https://aladia.io/",
   },
   {
     id: "csbsn",
